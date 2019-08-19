@@ -1,6 +1,0 @@
-div class="container">
-                <a class="navbar-brand p-sm-3 p-md-3 p-lg-3 p-xl-3" style="background-color:#4aaaa5">
-                    <pre
-                        style="font-family: 'Times New Roman', Times, serif; color: white; font-size: 200%"> Julia Dischell </pre>
-                </a>
-            </div>
