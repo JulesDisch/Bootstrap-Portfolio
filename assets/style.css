@@ -1,7 +1,7 @@
 
 #logo {
     float: left;
-    width: 250px;
+    /* width: 250px; */
     height: 70px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -11,7 +11,10 @@
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-right: -16px;
+    padding: 20px;
+    z-index: 99;
   }
 
   #links {
@@ -32,31 +35,17 @@
   } 
 
 
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-          color: #333;
-    }
-}
+
 
 
     body, html {
         height: 100%;
       }
       .bg {
-        /* The image used */
+        
         background-image: url("images/dark-paths.png") !important;
       
-        /* Full height */
-       /* height: 100%;
-      
-        /* Center and scale the image nicely */
-        /*background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;*/
+       
       }
 
       .work {
@@ -96,23 +85,5 @@
         } 
         
         
-        .navbar-brand {
-            width: 100% !important;
-            margin-left: 0px;
-            clear: both; 
-            position: static; 
-        }
-        #logo {
-            width: 100% !important;
-            margin-left: 0px;
-            clear: both; 
-          }
-    .nav.navbar-nav {
-        margin: auto;
-        width: 100%;
-        text-align: center;  
-    }
-    nav {
-        position: static
-    }
+        
 }
